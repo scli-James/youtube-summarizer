@@ -50,8 +50,13 @@ One-sentence summary: The video discusses the different types of machine learnin
 Detailed summary:
 
 Introduction (0:00 - 0:40): The video provides an overview of the different types of machine learning algorithms and their applications.
+
 Supervised Learning (0:40 - 4:32): The video explains how supervised learning works, including classification and regression problems, feature engineering, and evaluation metrics.
+
 Unsupervised Learning (4:32 - 7:39): The video discusses unsupervised learning, including clustering, dimensionality reduction, and anomaly detection.
+
 Semi-Supervised Learning (7:39 - 9:43): The video describes semi-supervised learning, which is a combination of supervised and unsupervised learning, and its use cases.
+
 Reinforcement Learning (9:43 - 12:10): The video covers reinforcement learning, which is used for decision making in dynamic environments and its applications.
+
 Conclusion (12:10 - 12:40): The video summarizes the different types of machine learning algorithms and their use cases.
