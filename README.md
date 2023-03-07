@@ -41,7 +41,7 @@ Experiment with it however you like.
 
 Sample [Youtube Video](https://www.youtube.com/watch?v=RYDiDpW2VkM)
 
-Sample [Transcript](https://www.youtube.com/api/timedtext?v=RYDiDpW2VkM&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1678192888&sparams=ip,ipbits,expire,v,caps,xoaf&signature=087B3C118245D74861054827746B033A7A7CF8E7.4BA604B798CEF2CF647D56579D05B7FA38B8AFE2&key=yt8&lang=en)
+Sample [Transcript](https://www.youtube.com/api/timedtext?v=RYDiDpW2VkM&caps=asr&xoaf=5&hl=en&ip=0.0.0.0&ipbits=0&expire=1678245164&sparams=ip,ipbits,expire,v,caps,xoaf&signature=2EE15D86288738C1A50776B23851AE43FB2BC037.4769EECD27896C49CE27BC54BEDA4804BC13FC3D&key=yt8&lang=en)
 
 Sample response from the current instructions:
 
