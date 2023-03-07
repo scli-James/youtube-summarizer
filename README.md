@@ -22,6 +22,8 @@ export { OPENAI_API_KEY };
 1. Currently using an open-source [chatgpt](https://github.com/transitive-bullshit/chatgpt-api) library to interact with openai
 2. Also check out open-ai's official [documentation](https://platform.openai.com/docs/api-reference/introduction) for help.
 3. See how to change completionParameters at open-ai's [playground](https://platform.openai.com/playground?mode=chat)
+4. ChatGPT is able to reference up to 3000words/4000tokens from the current conversation, according to [Raf](https://help.openai.com/en/articles/6787051-does-chatgpt-remember-what-happened-earlier-in-the-conversation)
+5. Any single message sent to ChatGPT is capped at 6144characters, according to testing.
 
 ## Workflow
 
@@ -32,7 +34,6 @@ export { OPENAI_API_KEY };
 5. Log the summary in console
 
 ## TODOs:
-1. Figure out the maximum length of a message that chatgpt can handle
 2. Figure out how to tell chatgpt to shut up while we send the transcript blocks
 3. Figure out how to tell chatgpt to summarize based on our instructions
 
