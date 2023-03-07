@@ -12,6 +12,10 @@ export { OPENAI_API_KEY };
 4. run `yarn install`
 5. run `node chatgpt.js`
 
+# To develop:
+1. after pulling from main branch, run `git checkout -b new-branch-name`
+2. to push your changes, run `git push origin <your-branch-name>`, note that  if it's your first time pushing to your branch, you may need to run `git push --set-upstream origin <your-branch-name>` instead.
+
 # Development Logs
 
 ## References and documentation
