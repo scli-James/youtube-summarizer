@@ -26,8 +26,9 @@ export { OPENAI_API_KEY };
 5. Any single message sent to ChatGPT is capped at 6144characters, according to testing.
 
 ## Feeding data to ChatGPT
-1. currently exploring [LlamaIndex](https://github.com/jerryjliu/gpt_index), check out documentation [here](https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html)
+1. currently exploring [LlamaIndex](https://github.com/jerryjliu/gpt_index), check out documentation [here](https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html).
 2. Friend's advice: 试试官方提供的方法，先转成embedding存到向量数据库，prompt用的时候也走一下OpenAI接口转embedding，在本地向量数据库做一次相似度查询，重组出新的prompt，丢给OpenAI的completion或chat接口。
+3. On example of this can be found on [Twitter](https://twitter.com/thejessezhang/status/1615390646763945991), check out PapersGPT demo [here](https://jessezhang.org/llmdemo).
 
 
 ## Workflow
