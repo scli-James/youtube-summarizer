@@ -25,6 +25,11 @@ export { OPENAI_API_KEY };
 4. ChatGPT is able to reference up to 3000words/4000tokens from the current conversation, according to [Raf](https://help.openai.com/en/articles/6787051-does-chatgpt-remember-what-happened-earlier-in-the-conversation). However [u/kmdr](https://www.reddit.com/r/ChatGPT/comments/zz36n5/an_experiment_on_chatgpts_memory/) also pointed out that this cap is not strict. By reseeding basic information, ChatGPT is able to recall data 10,000 words before.
 5. Any single message sent to ChatGPT is capped at 6144characters, according to testing.
 
+## Feeding data to ChatGPT
+1. currently exploring [LlamaIndex](https://github.com/jerryjliu/gpt_index), check out documentation [here](https://gpt-index.readthedocs.io/en/latest/guides/use_cases.html)
+2. Friend's advice: 试试官方提供的方法，先转成embedding存到向量数据库，prompt用的时候也走一下OpenAI接口转embedding，在本地向量数据库做一次相似度查询，重组出新的prompt，丢给OpenAI的completion或chat接口。
+
+
 ## Workflow
 
 1. Fetch transcript from youtube url in scraper.js
